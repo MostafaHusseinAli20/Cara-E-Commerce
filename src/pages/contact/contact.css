@@ -1,0 +1,89 @@
+.mainTextContact h1 , 
+.mainTextContact p {
+    position: relative;
+    top: 14rem;
+    font-size: 60px;
+    margin: -1rem auto;
+}
+.mainTextContact p {
+    font-size: 20px;
+    padding-top: 1.8rem;
+}
+/* Img Background */
+.imgBg img {
+    width: 100%;
+    height:35vh ;
+}
+.mainTextContact h1,
+.form_section label,
+.form_section h1,
+.form_section button,
+.form_section .getInTouch p{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.form_section .form-control,
+.form_section .form-control:active {
+    background-color: #1f2836 !important;
+    color: aliceblue !important;
+    border-color: #a5a4a4 !important;   
+}
+.form_section button,
+.form_section button:active{
+    background-color: #0F766E !important;
+    color: aliceblue !important;
+    /* border: none !important; */
+}
+.form_section button:hover{
+    background-color: #0e6961 !important;
+}
+.form_section .getInTouch p {
+    color: #b8b2b2;
+}
+@media (max-width: 1280px) {
+    .mainTextContact h1  {
+        position: relative;
+        top: 10rem;
+        font-size: 60px;
+        margin: -1rem auto;
+    }
+    .mainTextContact p {
+        font-size: 16px;
+        top: 10rem;
+    }
+}
+@media (max-width:1024px) {
+    .mainTextContact h1  {
+        position: relative;
+        top: 10rem;
+        font-size: 60px;
+        margin: -1rem auto;
+    }
+    .mainTextContact p {
+        font-size: 16px;
+        top: 10rem;
+    }
+}
+@media screen and (max-width: 990px) {
+    .mainTextContact h1  {
+        position: relative;
+        top: 14rem;
+    }
+    .mainTextContact p {
+        font-size: 16px;
+        top: 14rem;
+    }
+    .getInTouch {
+        margin-top: 3.5rem !important;
+    }
+}
+@media (max-width: 540px) {
+    .mainTextContact h1{
+        top: 10rem;
+        font-size: 40px;
+    }
+    .mainTextContact p {
+        font-size: 16px;
+        top: 10rem;
+    }
+}

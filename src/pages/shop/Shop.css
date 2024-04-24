@@ -1,0 +1,338 @@
+.shop h1 , 
+.shop p{
+    position: relative;
+    top: 16rem;
+    font-size: 60px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.shop p{
+    top: 17rem;
+    font-size: 19px;
+}
+.shop img {
+    width: 100%;
+}
+/*Search*/
+.search{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 7rem;
+}
+.search input {
+    background: #283647 !important;
+    color: aliceblue !important;
+    border: none;
+}
+.search input::placeholder{
+    color: aliceblue !important;    
+}
+.search .input-group span {
+    background-color: #0F766E;
+    color: aliceblue;
+    border: none !important;
+    cursor: pointer;
+}
+.filter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 54rem;
+}
+.filter select {
+    background-color: #283647;
+    color: aliceblue !important;
+    border: none;
+}
+.shoping .card {
+    background-color: #283647;
+    color: aliceblue;
+}
+.shoping .oneDiv img ,
+.shoping .threeDiv img ,
+.shoping .fiveDiv img,
+.shoping .sixDiv img,
+.shoping .seveDiv img,
+.shoping .eightDiv img,
+.shoping .nignDiv img,
+.shoping .tenDiv img,
+.shoping .elevenDiv img,
+.shoping .twilveDiv img,
+.shoping .threetyDiv img,
+.shoping .twoDiv img{
+    height: 25vh !important;
+}
+/*Pagination*/
+.page-item{
+    position: relative; 
+    left: 36rem;
+}
+.pagination .page-item a{
+    background-color: #111827;
+    color: aliceblue;
+}
+.page-item a:active {
+    background-color: #ccc;
+    color: black;
+}
+.pagination {
+    margin-top: 3rem;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:1024px){
+    /* Shop */
+    .shop h1 {
+        top:8rem;
+        font-size:40px;
+    }
+    .shop p{
+        top: 8.5rem;
+        font-size: 18px;
+    }
+    /* Search */
+    .search {
+        margin-top: 3rem;
+    }
+    .input-group input {
+        width: 50% !important;
+    }
+    /* Filter */
+    .filter select{
+        width: 100% !important;
+        margin-top: -1.7rem;
+    }
+    .filter {
+        flex-direction: row !important;
+        left: 30rem;
+    }
+    /* products */
+    .products {
+        margin-top: 5rem !important;
+    }
+    .products .card {
+        width: 17rem !important;
+        margin: 0 auto !important;
+    }
+    .oneDiv img ,
+    .threeDiv img ,
+    .fiveDiv img,
+    .sixDiv img,
+    .seveDiv img,
+    .eightDiv img,
+    .nignDiv img,
+    .tenDiv img,
+    .elevenDiv img,
+    .twilveDiv img,
+    .threetyDiv img,
+    .twoDiv img,
+    .fourDiv img{
+        height: 30vh !important;
+        width: 100% !important;
+    }
+    /* Pagination */
+    .page-item{
+        left: 10rem;
+        margin: 0 1.7rem !important;
+    }
+    /*Blog Page*/
+    .mainText h1 , 
+    .mainText p{
+    position: relative;
+    top: 6rem !important;
+    font-size: 70px;
+    color: #ffffff;
+    margin: -2rem auto;
+    }
+    .mainText p{
+    top: 8rem !important;
+    font-size: 17px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    /* Nav */
+    nav{
+        width: 540px;
+    }
+      /* Shop */
+      .shop h1 {
+        top:5.5rem;
+        font-size:30px;
+    }
+    .shop p{
+        top: 5.5rem;
+        font-size:15px;
+    }
+      /* Search */
+      .search {
+        margin-top: 3rem;
+    }
+    .input-group input {
+        width: 5% !important;
+    }
+    /* Filter */
+    .filter {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: .7rem !important;
+        /* top: 2rem; */
+    }
+     .filter select{
+        width: 100% !important;
+        margin-top: .2rem;
+    }
+      /* products */
+      .products {
+        margin-top: 2rem !important;
+    }
+    .products .card {
+        
+        margin: 0 auto !important;
+    }
+    .shopPag2 .card, .shopPag3 .card {
+        margin: 0 auto !important;
+    }
+    
+     /* Pagination */
+     .page-item{
+        left: 3rem;
+        margin: 0 1rem !important;
+    }
+    /*Blog Page*/
+    .mainText h1 , 
+    .mainText p{
+    position: relative;
+    top: 8rem !important;
+    font-size: 70px;
+    color: #ffffff;
+    margin: -2rem auto;
+    }
+    .mainText p{
+    top: 10rem !important;
+    font-size: 20px;
+    }
+}
+@media (max-width: 430px) {
+    /* Shop */
+    .shop h1 {
+        top:4.5rem;
+        font-size:25px;
+    }
+    .shop p{
+        top: 4.5rem;
+        font-size: 10px;
+    }
+    /* Search */
+    .search {
+        margin-top: 2rem;
+    }
+    .input-group input {
+        width: 50% !important;
+    }
+    /* Filter */
+    .filter {
+        flex-direction: column !important;
+        left: 0rem;
+    }
+    .filter select{
+        width: 100% !important;
+        margin-top: 1.5rem;
+    }
+    /* products */
+    .products {
+        margin-top: 2rem !important;
+    }
+    .products .card {
+        /* width: 17rem !important; */
+        margin: 0 auto !important;
+    }
+    /*Img Products*/
+    .oneDiv img ,
+    .threeDiv img ,
+    .fiveDiv img,
+    .sixDiv img,
+    .seveDiv img,
+    .eightDiv img,
+    .nignDiv img,
+    .tenDiv img,
+    .elevenDiv img,
+    .twilveDiv img,
+    .threetyDiv img,
+    .twoDiv img,
+    .fourDiv img{
+        height: 30vh !important;
+        width: 100% !important;
+    }
+    /* Pagination */
+    .page-item{
+        left: 0rem;
+        margin: 0 auto !important;
+    }
+    /*Blog Page*/
+    .mainText h1 , 
+    .mainText p{
+    position: relative;
+    top: 6rem !important;
+    font-size: 70px;
+    color: #ffffff;
+    margin: -2rem auto;
+    }
+    .mainText p{
+    top: 8rem !important;
+    font-size: 17px !important;
+    }
+}
+@media (max-width: 280px){
+    nav {
+        width: 280px !important;
+    }
+    .products .card {
+        width: 15rem !important;
+        margin: 0 auto !important;
+    }
+     /* Pagination */
+     .page-item{
+        left: 2rem;
+        margin: 0 -1rem !important;
+    }
+    /*Blog Page*/
+    .mainText h1 , 
+    .mainText p{
+    position: relative;
+    top: 5.5rem !important;
+    font-size: 40px !important;
+    }
+    .mainText p{
+    top: 8rem !important;
+    font-size: 17px !important;
+    }
+}
+/*Responsive Nav*/
+@media (max-width: 430px) {
+    nav{
+        width: 430px;
+    }
+}
+@media (max-width: 414px) {
+    nav{
+        width: 414px;
+    }
+}
+@media (max-width: 390px) {
+    nav{
+        width: 390px;
+    }
+}
+@media (max-width: 375px) {
+    nav{
+        width: 375px;
+    }
+}
+@media (max-width: 360px) {
+    nav{
+        width: 360px;
+    }
+}

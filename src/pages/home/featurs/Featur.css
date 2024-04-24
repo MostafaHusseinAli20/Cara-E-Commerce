@@ -1,0 +1,53 @@
+/*Slide Bar*/
+.scroll-container {
+    overflow-x:auto;
+    white-space: nowrap;
+    padding: 20px;
+    display: flex;
+}
+.onePro img ,
+.twoPro img ,
+.threePro img,
+.fourPro img{
+    border: 1px solid #252c35;
+    margin: 1rem;
+    width: 300px;
+}
+.scroll-container .card {
+    background-color: #293446;
+    color: aliceblue;
+}
+.scroll-container .price_cart{
+    justify-content:space-between;
+    align-items: center;
+}
+.price_cart a{
+    font-size: 20px;
+    border: 1px solid #252c35;
+    color: #115E59;
+    background-color: #1F2937;
+    border-radius: 50%;
+    
+}
+.price_cart a:hover{
+    background-color:#1F2937 ;
+}
+.scroll-container .price_cart a:hover{
+    color: #115E59 ;
+}
+/*Scroll Dives*/
+.oneDiv img ,
+.threeDiv img ,
+.fiveDiv img,
+.sixDiv img,
+.seveDiv img,
+.eightDiv img,
+.nignDiv img,
+.tenDiv img,
+.elevenDiv img,
+.twilveDiv img,
+.threetyDiv img,
+.fourDiv img,
+.twoDiv img{
+    height: 24vh !important;
+}

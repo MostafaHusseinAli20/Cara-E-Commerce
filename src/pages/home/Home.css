@@ -1,0 +1,197 @@
+/* .home-back {
+    margin-top: 60px;
+} */
+a{
+    text-decoration: none !important;
+}
+.prodact {
+    color: #14B8A6;
+}
+.card-img-overlay h5 {
+    margin-top: 20rem;
+    letter-spacing: 2px;
+}
+.card-img-overlay h1{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 50px;
+    width: 40%;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.card-img-overlay p {
+    font-size: 20px;
+}
+.btns{
+    background-image: url(./btnBackground/button-background.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    /* background-size:25%; */
+}
+.btns a {
+    position: relative;
+    left: 3.7rem;
+    color: #14B8A6;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/*Features Div*/
+.freeShipping ,
+.onlineOrder ,
+.saveMoney ,
+.promotions ,
+.happySell ,
+.support{
+    border: 1px solid ;
+    padding: 40px;
+    background-color: #252c35;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+.freeShippingtext ,
+.onlineOrdertext ,
+.promotionstext ,
+.happySelltext ,
+.saveMoneytext,
+.supporttext{
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
+}
+.freeShippingtext:hover,
+.onlineOrdertext:hover,
+.promotionstext:hover,
+.happySelltext:hover,
+.saveMoneytext:hover,
+.supporttext:hover{
+    font-weight: bold;
+}
+.freeShippingtext{
+    background-color: #FDDDE4;
+    color: #115E59;
+    
+}
+.onlineOrdertext{
+    background-color: #CDEBBC;
+    color: #115E59;
+}
+.saveMoneytext{
+    background-color: #D1E8F2;
+    color: #115E59;
+}
+.promotionstext {
+    background-color:#CDD4F8;
+    color: #115E59;
+}
+.happySelltext{
+    background-color: #F6DBF6;
+    color: #115E59;
+}
+.supporttext{
+    background-color: #FFF2E5;
+    color: #115E59;
+}
+@media (max-width: 1000px){
+    .home-back .card img{
+        height: 50vh !important;
+    }
+    .card-img-overlay h5{
+        font-size: 25px;
+        width: 60% !important;
+        margin-top: 10rem !important;
+    }
+    .card-img-overlay h1{
+        width: 75%;
+
+    }
+    .card-text-pargraph{
+        width: 65%;
+    }
+}
+@media (max-width: 768px) {
+    .home-back .card img{
+        height: 50vh !important;
+    }
+    nav{
+        width: 768px;
+    }
+    /* .home-back{
+        width: 100%;
+    } */
+    .card-img-overlay h5{
+        font-size: 15px;
+        width: 60% !important;
+        margin-top: 4rem !important;
+    }
+    .card-img-overlay h1{
+        font-size: 20px;
+        width: 75%;
+    }
+    .card-text-pargraph{
+        width: 65%;
+    }
+    .features .freeShipping ,
+    .features .onlineOrder,
+    .features .saveMoney,
+    .features .promotions,
+    .features .happySell,
+    .features .support{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .card img {
+        margin-top: 3rem !important;
+    }
+}
+@media (max-width:430px) {
+    nav{
+        width: 430px;
+    }
+    .card img {
+        width: 430px !important;
+    }
+    .home-back {
+        width: 100% !important;
+    }
+}
+@media (max-width: 414px) {
+    nav{
+        width: 414px;
+    }
+    .card img {
+        width: 414px !important;
+    }
+}
+@media (max-width: 375px) {
+    nav{
+        width: 100%;
+    }
+    .card img {
+        width: 400px !important;
+    }
+    .home-back {
+        width: 110% !important;
+    }
+
+}
+@media (max-width: 390px) {
+    nav{
+        width: 390px;
+    }
+    .card img {
+        width: 390px !important;
+    }
+    /* .home-back {
+        width: 110% !important;
+    } */
+}
+@media (max-width:360px) {
+    nav{
+        width: 360px;
+    }
+    .card img {
+        width: 360px !important;
+    }
+    .home-back {
+        width: 100% !important;
+    }
+}

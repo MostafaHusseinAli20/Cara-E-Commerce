@@ -1,0 +1,51 @@
+.discond{
+    background-image: url(./discondbg/discount.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100% ;
+    height: 40vh;
+}
+.repair_sevices{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+.repair_sevices h5{
+    letter-spacing: 1px;
+}
+.repair_sevices h2 {
+    margin-top:.5rem ;
+}
+.sale {
+    color: #DC2626;
+}
+.repair_sevices .btn ,
+.repair_sevices .btn:active,
+.repair_sevices .btn:hover{
+    border: 1px solid #115E59 !important;
+}
+@media (max-width: 767px) {
+    .repair_sevices{
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .discond{
+        /* height: auto !important; */
+        width: 430px !important;
+    }
+}
+/* @media (max-width:390px) {
+    .discond{
+        width: 390px;
+    }
+} */
+@media (max-width: 360px) {
+    .discond{
+        /* height: auto !important; */
+        width: 360px !important;
+    }
+}

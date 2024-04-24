@@ -1,0 +1,17 @@
+nav {
+    background-color: #1B2430;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 400;
+}
+.navbar-brand {
+    font-weight:900;
+}
+.navbar-nav li a:hover{
+    border: 1px solid #115E59;
+    border-radius: 20px;
+    background-color: #115E59;
+    transform: scale(.9);
+    /* color: #149b92 !important; */
+}

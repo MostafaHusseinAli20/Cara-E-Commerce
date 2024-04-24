@@ -1,0 +1,51 @@
+ul {
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+.footer .text-light {
+    position: relative;
+    z-index: 500;
+}
+.custom-shape-divider-top-1712870767 {
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #0F766E;
+}
+.custom-shape-divider-top-1712948994 {
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #0F766E;
+    border-top: 6px solid #0F766E;
+     border-top-right-radius:10rem; 
+    border-top-left-radius: 10rem;
+}
+
+.custom-shape-divider-top-1712948994 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 161px;
+}
+
+.custom-shape-divider-top-1712948994 .shape-fill {
+    fill: #0F766E;
+}
+.footer .about h4 ,
+.footer .myAcc h4 ,
+.footer .follow h4{
+    margin-left: 2rem;
+}
+.footer .col-lg-3 h4 ,
+.footer .col-lg-3 p{
+    cursor: pointer;
+}

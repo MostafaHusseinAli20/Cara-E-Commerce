@@ -1,0 +1,223 @@
+.btn {
+    padding: 0.6rem 1rem !important;
+}
+.collect {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+}
+.collect .text-overly {
+    position: absolute;
+    top: 15%;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.crazyDetail{
+    margin-left: 1rem;
+}
+.collect button ,
+.collect button:hover{
+    border: 1px solid white;
+}
+.collect .btn-collection,
+.collect .btn-collection:hover,
+.collect .btn-collection:active {
+    background-color: #115E59 !important;
+    border: #115E59 !important;
+    padding: 0.6rem 1rem;
+}
+.text-overly_2{
+    position: relative; 
+    /* top: 195rem; */
+    top: -13rem;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+/*collect_2*/
+.collect_2{
+    /*position: relative; New*/
+    display: flex;
+    gap: 2rem;
+    margin-left: 15rem !important;
+}
+.seasonalSale img,
+.footwear img,
+.tshirts img {
+    height: 25vh;
+}
+@media (max-width: 1280px) {
+    .collect_2{
+        margin-left: 5.5rem !important;
+    }
+    .collect {
+        margin-right: 8rem !important;
+    }
+    .repair_sevices{
+        padding-top: 5rem;
+    }
+    .text-overly_2{
+        position: relative;
+        top: -9.5rem !important;
+    }
+    .home-back .card img {
+        margin-top: 3rem !important;
+    }
+}
+@media (max-width: 1024px) {
+    .home-back .card img{
+        margin-top: 3rem !important;
+    }
+    .collect_2{
+        position: relative;
+        display: flex;
+        gap: 2rem;
+    }
+    .collect .text-overly {
+        position: relative;
+        top: -16rem !important;
+        color: white;
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+    .collect , .collect_2{
+        text-align: center;
+        flex-direction: column;
+    }
+    .collect_2{
+        margin-left: 0rem !important;
+    }
+    .text-overly_2{
+        position: relative;
+        top: -9.5rem !important;
+    }
+    .text-overly_2 h5{
+        position: relative;
+        font-size: 17px !important;
+    }
+    .Feature_prod .oneDiv img,
+    .Feature_prod .threeDiv img,
+    .Feature_prod .fiveDiv img,
+    .Feature_prod .sixDiv img,
+    .Feature_prod .seveDiv img,
+    .Feature_prod .eightDiv img,
+    .Feature_prod .nignDiv img,
+    .Feature_prod .tenDiv img,
+    .Feature_prod .elevenDiv img,
+    .Feature_prod .twilveDiv img,
+    .Feature_prod .threetyDiv img,
+    .Feature_prod .fourDiv img,
+    .Feature_prod .twoDiv img{
+        width: 100% !important;
+        height: 35vh !important;
+    }
+}
+@media (max-width: 853px) {
+    .text-overly_2{
+        position: relative;
+        top: -13.5rem !important;
+    }
+    .text-overly_2 h5{
+        position: relative;
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 768px) {
+.btn {
+    padding: 0.2rem .5rem !important;
+}
+/*collect_1*/
+.collect .text-overly {
+    position: relative;
+    top: -10rem !important;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.collect , .collect_2{
+    flex-direction: column;
+}
+.crazyDetail img , .springAndSummer img{
+    margin-left: 0rem ;
+    width: 100%;
+}
+.collect img{
+    height:30vh ;
+}
+.collect .text-overly {
+    top: -11rem !important;
+    color: white;
+    font-size: 20px !important;
+}
+.collect .btn{
+    display: none;
+}
+/*collect_2*/
+.seasonalSale img,
+.footwear img,
+.tshirts img {
+    height: 20vh;
+}
+.text-overly_2{
+    position: relative;
+    top: -7.5rem !important;
+}
+.text-overly_2 h5{
+    position: relative;
+    font-size: 17px !important;
+}
+.repair_sevices{
+    padding-top: 4rem;
+}
+.cards .sale {
+    font-size: 15px !important;
+}
+/* .collect_2 img {
+    height: 23vh !important;
+} */
+/* .seasonalSale img,
+.footwear img,
+.tshirts img {
+    height: 25vh !important;
+} */
+}
+/* @media (max-width:375px) {
+    .seasonalSale img,
+    .footwear img,
+    .tshirts img {
+        height: 25vh !important;
+    }
+    .text-overly_2{
+        top: -8rem !important;
+        font-size: 1px !important;
+    }
+    .collect .text-overly {
+        top: -10rem !important;
+    }
+}
+
+@media (max-width:360px) {
+    .seasonalSale img,
+    .footwear img,
+    .tshirts img {
+        height: 25vh !important;
+    }
+    .text-overly_2{
+        top: -8rem !important;
+        font-size: 1px !important;
+    }
+    .collect .text-overly {
+        top: -10rem !important;
+    }
+} */
+/* @media (max-width:430px) {
+    .cards img {
+    height: 23vh !important;
+    }
+}
+@media (max-width:414px) {
+    .collect_2 img {
+    width: 0vh !important;
+    }
+} */
