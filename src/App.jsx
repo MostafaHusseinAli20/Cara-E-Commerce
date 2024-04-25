@@ -9,8 +9,8 @@ import Pag3 from './pages/shop/Pagination Pages/page3'
 import Blog from './pages/blog/Blog'
 import Contact from './pages/contact/Contact'
 import Cart from './pages/cart/Cart'
+import NotMatch from './pages/notMatch/notMatch'
 function App() {
-
   return (
     <>
       <Navbar />
@@ -22,6 +22,7 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<NotMatch />} />
       </Routes>
       <Fotter />
     </>
